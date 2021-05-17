@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td colspan="3" class="col1"><input type="text" id="result"/></td>
+                <td><input type="button" value="c"  onclick="clr()"/> </td>
+            </tr>
+
+            <tr>
+                <td><input type="button" class="row frow" onclick="disp('1')" value="1"></td>
+                <td><input type="button" class="row frow"  onclick="disp('2')" value="2"></td>
+                <td><input type="button" class="row frow"  onclick="disp('3')"value="3"></td>
+                <td><input type="button" class="row frow"  onclick="disp('/')" value="/"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" class="row srow"  onclick="disp('4')" value="4"></td>
+                <td><input type="button" class="row srow"  onclick="disp('5')" value="5"></td>
+                <td><input type="button" class="row srow"  onclick="disp('6')" value="6"></td>
+                <td><input type="button" class="row srow"  onclick="disp('-')" value="-"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="row trow"  onclick="disp('7')" value="7"></td>
+                <td><input type="button" class="row trow"  onclick="disp('8')" value="8"></td>
+                <td><input type="button" class="row trow"  onclick="disp('9')" value="9"></td>
+                <td><input type="button" class="row trow"  onclick="disp('+')" value="+"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="row frow"  onclick="disp('.')" value="."></td>
+                <td><input type="button" class="row frow"  onclick="disp('0')" value="0"></td>
+                <td><input type="button" class="row frow"  onclick="disp('00')" value="00"></td>
+                <td><input type="button" class="row frow"  onclick="disp('*')" value="*"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="row frow"  onclick="fact()" value="!"></td>
+                <td><input type="button" class="row frow"  onclick="per('')" value="%"></td>
+                <td><input type="button" class="row frow"  onclick="solve()" value="="></td>
+                <td><input type="button" class="row frow"  onclick="delOne()" value="rm"></td>
+            </tr>
+        </table>
+    </div>
+  
+</body>
+</html>
